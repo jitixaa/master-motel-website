@@ -19,7 +19,7 @@ const CheckOut = () => {
       {/* Icon */}
       <div className="absolute z-10 pr-8" onClick={handleIconClick}>
         <div>
-          <BsCalendar className="text-accent text-base" />
+          <BsCalendar className="text-accent text-base transition-opacity hover:opacity-70 cursor-pointer" />
         </div>
       </div>
 
